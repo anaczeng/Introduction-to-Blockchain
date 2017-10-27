@@ -6,13 +6,11 @@
 
 #### 参考文献：
 
-\[1\]结城浩.图解密码技术\[M\].北京：人民邮电出版社，2016：97-134，145-176.
+\[1\] 结城浩.图解密码技术\[M\].北京：人民邮电出版社，2016：97-134，145-176.
 
-\[2\]褚华.软件设计师\[M\].北京：清华大学出版社，2014：394-427.
+\[2\] 褚华.软件设计师\[M\].北京：清华大学出版社，2014：394-427.
 
-\[3\]阿尔文德·纳拉亚南等.区块链：技术驱动金融\[M\].北京:中信出版社，2016.
+\[3\] 阿尔文德·纳拉亚南等.区块链：技术驱动金融\[M\].北京:中信出版社，2016.
 
 \[4\] FATF REPORT. Virtual Currencies Key Definitions and Potential AML/CFT Risks. [http://www.fatf-gafi.org/media/fatf/documents/reports/Virtual-currency-key-definitions-and-potential-aml-cft-risks.pdf](http://www.fatf-gafi.org/media/fatf/documents/reports/Virtual-currency-key-definitions-and-potential-aml-cft-risks.pdf). 2016/11/21.
-
-
 
