@@ -17,5 +17,5 @@
     * [2.6 数字签名](gai-lun/di-er-zhang-qu-kuai-lian-she-ji-de-mi-ma-xue-ji-zhu/26-shu-zi-qian-ming.md)
     * [2.7 本章小节](gai-lun/di-er-zhang-qu-kuai-lian-she-ji-de-mi-ma-xue-ji-zhu/27-ben-zhang-xiao-jie.md)
   * [第三章 分布式计算模型](gai-lun/di-san-zhang-fen-bu-shi-ji-suan-mo-xing.md)
-    * [3.1 拜占庭将军问题](gai-lun/31-bai-zhan-ting-jiang-jun-wen-ti.md)
+    * [3.1 拜占庭将军问题](gai-lun/di-san-zhang-fen-bu-shi-ji-suan-mo-xing/31-bai-zhan-ting-jiang-jun-wen-ti.md)
 
