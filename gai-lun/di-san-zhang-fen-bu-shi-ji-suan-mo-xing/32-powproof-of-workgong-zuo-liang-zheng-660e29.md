@@ -14,7 +14,7 @@ POW的目的是使用经济手段来阻止滥用服务（Service Abuse）。用�
 
 用高斯消元法解线性方程组：
 
-![](/assets/impor2t.png)
+![](/assets/pow-1.png)
 
 验证解的正确性，把结果代入式子：
 
