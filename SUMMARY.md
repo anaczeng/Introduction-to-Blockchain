@@ -16,4 +16,6 @@
     * [2.5 Merkle树](gai-lun/di-er-zhang-qu-kuai-lian-she-ji-de-mi-ma-xue-ji-zhu/25-merkleshu.md)
     * [2.6 数字签名](gai-lun/di-er-zhang-qu-kuai-lian-she-ji-de-mi-ma-xue-ji-zhu/26-shu-zi-qian-ming.md)
     * [2.7 本章小节](gai-lun/di-er-zhang-qu-kuai-lian-she-ji-de-mi-ma-xue-ji-zhu/27-ben-zhang-xiao-jie.md)
+  * 第三章 分布式计算模型
+    * [3.1 拜占庭将军问题](gai-lun/31-bai-zhan-ting-jiang-jun-wen-ti.md)
 
