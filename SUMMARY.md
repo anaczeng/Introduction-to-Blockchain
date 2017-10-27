@@ -18,4 +18,5 @@
     * [2.7 本章小节](gai-lun/di-er-zhang-qu-kuai-lian-she-ji-de-mi-ma-xue-ji-zhu/27-ben-zhang-xiao-jie.md)
   * [第三章 分布式计算模型](gai-lun/di-san-zhang-fen-bu-shi-ji-suan-mo-xing.md)
     * [3.1 拜占庭将军问题](gai-lun/di-san-zhang-fen-bu-shi-ji-suan-mo-xing/31-bai-zhan-ting-jiang-jun-wen-ti.md)
+    * [3.2 POW\(Proof of Work:工作量证明\)](gai-lun/di-san-zhang-fen-bu-shi-ji-suan-mo-xing/32-powproof-of-workgong-zuo-liang-zheng-660e29.md)
 
