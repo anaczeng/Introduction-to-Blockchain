@@ -4,9 +4,7 @@
 
 下一章，我们将介绍与区块链共识机制相关的基础知识。区块链是个复杂精致的系统，花时间理清它基础的构造对后面整体的理解是大有裨益的。心急吃不了热豆腐，希望读者们在这股热潮中也能保持冷静理智的头脑看待新生的区块链。
 
-
-
-##### 参考文献：
+#### 参考文献：
 
 \[1\]结城浩.图解密码技术\[M\].北京：人民邮电出版社，2016：97-134，145-176.
 
@@ -14,9 +12,7 @@
 
 \[3\]阿尔文德·纳拉亚南等.区块链：技术驱动金融\[M\].北京:中信出版社，2016.
 
-\[4\] FATF REPORT. Virtual Currencies Key Definitions and Potential AML/CFT Risks. http://www.fatf-gafi.org/media/fatf/documents/reports/Virtual-currency-key-definitions-and-potential-aml-cft-risks.pdf. 2016/11/21.
-
-
+\[4\] FATF REPORT. Virtual Currencies Key Definitions and Potential AML/CFT Risks. [http://www.fatf-gafi.org/media/fatf/documents/reports/Virtual-currency-key-definitions-and-potential-aml-cft-risks.pdf](http://www.fatf-gafi.org/media/fatf/documents/reports/Virtual-currency-key-definitions-and-potential-aml-cft-risks.pdf). 2016/11/21.
 
 
 
