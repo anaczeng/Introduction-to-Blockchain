@@ -257,7 +257,7 @@ POW和Hashcash的介绍可以回顾3.4节的内容。
 > 价值：3BTC
 > 地址：1Gg8ZkeyzeZoifqbDceJrXiLsFWV86wEEk
 > ```
->
+
 > 交易二（a00208d56051fe501a6c454c202b7498cfa334e0ad535acd9cc7dd92a73a6453）：
 >
 > 输入：
@@ -272,7 +272,7 @@ POW和Hashcash的介绍可以回顾3.4节的内容。
 > 价值：3BTC
 > 地址：12mbpvSoCfSd4HTxuFV6g3WUfs2nMcnEJK
 > ```
->
+
 > 交易三（022dcce262019cfc357b160743294357c80a8a4dafa22a453bdebf4b18f989eej）：
 >
 > 输入：
