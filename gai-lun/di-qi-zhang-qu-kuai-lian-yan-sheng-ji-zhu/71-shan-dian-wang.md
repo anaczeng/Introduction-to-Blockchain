@@ -24,7 +24,7 @@ RSMC的原理与上例相似。减少资金流动的手续在RSMC中即减少在
 
 每天早上使用RSMC构建微支付通道：
 
-（1）子贡和卫国钱庄互换公钥$$PublicKey_{A1}$$、$$PublicKey_{B1}$$和地址$$Address_{A}$$、$$Address_{B}$$，产生一个多重签名地址，多种签名地址的介绍可回顾5.1.2.4节内容；
+（1）子贡和卫国钱庄互换公钥$$PublicKey_{A1}$$、$$PublicKey_{B1}$$和地址$$Address_{A}$$、$$Address_{B}$$，产生一个多重签名地址$$MultiSigAddress_1$$，多种签名地址的介绍可回顾5.1.2.4节内容；
 
 （2）$$MultiSigAddress_1$$用于建立筹资交易（Funding Tx）：子贡和卫国钱庄都将0.1BTC打入该地址但此时双方都并未签名；
 
