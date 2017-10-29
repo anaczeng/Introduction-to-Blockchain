@@ -34,4 +34,5 @@
   * [第六章 以太坊、超级账本和Factom公证链](gai-lun/di-liu-zhang-yi-tai-fang-3001-chao-ji-zhang-ben-he-factom-gong-zheng-lian.md)
   * [第七章 区块链衍生技术](gai-lun/di-qi-zhang-qu-kuai-lian-yan-sheng-ji-zhu.md)
     * [7.1 闪电网](gai-lun/di-qi-zhang-qu-kuai-lian-yan-sheng-ji-zhu/71-shan-dian-wang.md)
+    * [7.2 侧链技术](gai-lun/di-qi-zhang-qu-kuai-lian-yan-sheng-ji-zhu/72-ce-lian-ji-zhu.md)
 
