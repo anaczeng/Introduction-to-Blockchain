@@ -75,13 +75,13 @@
 >
 > ```
 > [
-> {
-> "tixd": "48aa4e2a01668e5ebab8988c3fae709e5a720c7bd3014ad1cb23187678cd92bb",
-> "vout": 1,
-> "address": "14cYAhJRknBkXDtG2r3VEMS8b6UeozngrQ",
-> "amount": 8.00000000
-> "confirmation": 6
-> }
+>   {
+>       "tixd": "48aa4e2a01668e5ebab8988c3fae709e5a720c7bd3014ad1cb23187678cd92bb",
+>       "vout": 1,
+>       "address": "14cYAhJRknBkXDtG2r3VEMS8b6UeozngrQ",
+>       "amount": 8.00000000
+>       "confirmation": 6
+>   }
 > ]
 > ```
 
