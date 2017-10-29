@@ -137,39 +137,32 @@
 
 > 输入：bitcoin-cli validateaddress 13Cz2ZRYVF4TLDqppGtXhzWWtZChuQyMSb
 >
-> 输出：{
->
-> "isvalid": true,
->
-> "address": "13Cz2ZRYVF4TLDqppGtXhzWWtZChuQyMSb",
->
-> "scriptPubKey": "76a91418346e483142fa281b1439c4e7ea9554936db47588ac",
->
-> "ismine": true,
->
-> "iswatchonly": false,
->
-> "isscript": false,
->
-> "pubkey": "033db818156b4484e1b18f39f6cfe5b405559760e67c65e5dedc0106db7506f276",
->
-> "iscompressed": true,
->
-> "account": ""
->
+> 输出：
+> ```
+> {
+>   "isvalid": true,
+>   "address": "13Cz2ZRYVF4TLDqppGtXhzWWtZChuQyMSb",
+>   "scriptPubKey": "76a91418346e483142fa281b1439c4e7ea9554936db47588ac",
+>   "ismine": true,
+>   "iswatchonly": false,
+>   "isscript": false,
+>   "pubkey": "033db818156b4484e1b18f39f6cfe5b405559760e67c65e5dedc0106db7506f276",
+>   "iscompressed": true,
+>   "account": ""
 > }
+> ```
 
 （3）使用createmultisig命令获得一个多重签名地址。
 
 > 输入：bitcoin-cli createmultisig 2 '''\["'033db818156b4484e1b18f39f6cfe5b405559760e67c65e5dedc0106db7506f276'","'03a0e1b4f5925d7e15aa0e9dab167665e85ef62ac9898a48c5da94c43310568712'"\]'''
 >
-> 输出：{
->
-> "address": "34PgLUSorh3fnk9Ee72BwniSPc5KqSPDTQ",
->
-> "redeemScript": "5221033db818156b4484e1b18f39f6cfe5b405559760e67c65e5dedc0106db7506f2762103a0e1b4f5925d7e15aa0e9dab167665e85ef62ac9898a48c5da94c4331056871252ae"
->
+> 输出：
+> ```
+> {
+>   "address": "34PgLUSorh3fnk9Ee72BwniSPc5KqSPDTQ",
+>   "redeemScript": "5221033db818156b4484e1b18f39f6cfe5b405559760e67c65e5dedc0106db7506f2762103a0e1b4f5925d7e15aa0e9dab167665e85ef62ac9898a48c5da94c4331056871252ae"
 > }
+> ```
 
 至此，获得了一个多重签名地址。若要动用该地址内的资金，必须同时使用子贡和仆人分别持有的私钥签名。子贡和仆人只需使用例子1的命令将资金打入该地址即可以开始共同管理。多重签名地址是构建闪电网微支付通道的开始，这部分内容将在第七章介绍。
 
@@ -260,52 +253,44 @@ POW和Hashcash的介绍可以回顾3.4节的内容。
 > 输入：略
 >
 > 输出：
->
+> ```
 > 价值：3BTC
->
 > 地址：1Gg8ZkeyzeZoifqbDceJrXiLsFWV86wEEk
->
 > 交易二（a00208d56051fe501a6c454c202b7498cfa334e0ad535acd9cc7dd92a73a6453）：
+> ```
 >
 > 输入：
->
 > ```
 > TXID：b14f8b28eb460d9d25a51addf90872f28fbd39385d839e8988130b8d0a620706
->
 > 索引：0
->
 > 签名：L5E4aVE19Kyv5Cf9Akbh9zGJxoqqteHYLgZQ7D13VMqqkqNj4Q13
 > ```
 >
 > 输出：
->
+> ```
 > 价值：3BTC
->
 > 地址：12mbpvSoCfSd4HTxuFV6g3WUfs2nMcnEJK
->
 > 交易三（022dcce262019cfc357b160743294357c80a8a4dafa22a453bdebf4b18f989eej）：
+> ```
 >
 > 输入：
->
 > ```
 > TXID：b14f8b28eb460d9d25a51addf90872f28fbd39385d839e8988130b8d0a620706
->
 > 索引：0
->
 > 签名：L5E4aVE19Kyv5Cf9Akbh9zGJxoqqteHYLgZQ7D13VMqqkqNj4Q13
 > ```
 >
 > 输出：
->
+> ```
 > 价值：3BTC
->
 > 地址：16knopFn5ou7R9GZ39fEoaszoFpVtBKJSB
+> ```
 
 通过之前的学习，我们知道：
 
-（1）    交易一已在账本上而且是有效的，所以盗跖已有3BTC比特币的所有权；
+（1）交易一已在账本上而且是有效的，所以盗跖已有3BTC比特币的所有权；
 
-（2）    对单个无论是主节点还是矿工节点来说，它们只会接受交易二或交易三并拒绝另一个。
+（2）对单个无论是主节点还是矿工节点来说，它们只会接受交易二或交易三并拒绝另一个。
 
 在大多数情况下，一个时刻只有一个区块产生，并在其后面接上后续的区块。那么无论被打包在区块中的是交易二还是交易三，盗跖的3BTC比特币也只能被花费一次，"双花"攻击是无效的。
 
