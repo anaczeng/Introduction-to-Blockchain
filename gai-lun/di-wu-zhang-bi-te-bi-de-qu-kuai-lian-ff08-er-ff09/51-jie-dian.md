@@ -61,38 +61,28 @@
 （1）子贡先使用getnewaddress命令获取地址，然后发给鲁国钱庄用于接收8BTC；
 
 > 输入：bitcoin-cli getnewaddress
->
 > 输出：14cYAhJRknBkXDtG2r3VEMS8b6UeozngrQ
 
 （2）过一段时间后，鲁国钱庄告诉子贡已经转账了；子贡使用getreceivedbyaddress命令并设置该地址和6为参数来查看该地址经过6个区块确认的接收额度；
 
 > 输入：bitcoin-cli getreceivedbyaddress 14cYAhJRknBkXDtG2r3VEMS8b6UeozngrQ 6
->
 > 输出：8.00000000
 
 （3）子贡使用listunspent命令查看自己的未花交易UTXO；
 
 > 输入：bitcoin-cli listunspent
->
-> 输出：\[
->
+> 输出：
+> ```
+> [
 > {
->
-> ```
-> “tixd”: “48aa4e2a01668e5ebab8988c3fae709e5a720c7bd3014ad1cb23187678cd92bb”,
->
-> “vout”:1,
->
-> “address”: “14cYAhJRknBkXDtG2r3VEMS8b6UeozngrQ”,
->
-> “amount”:8.00000000
->
-> “confirmation”:6
-> ```
->
+> "tixd": "48aa4e2a01668e5ebab8988c3fae709e5a720c7bd3014ad1cb23187678cd92bb",
+> "vout": 1,
+> "address": "14cYAhJRknBkXDtG2r3VEMS8b6UeozngrQ",
+> "amount": 8.00000000
+> "confirmation": 6
 > }
->
-> \]
+> ]
+> ```
 
 （4）子贡使用createrawtransaction命令创建与卫国钱庄的交易，他将与鲁国钱庄交易的外指，卫国钱庄的地址公钥和支付4BTC额度，自己的公钥地址和3.99BTC零钱额度作为参数输入；获得一个原始十六进制的加密交易字符串；
 
