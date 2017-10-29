@@ -87,46 +87,38 @@
 
 （4）子贡使用createrawtransaction命令创建与卫国钱庄的交易，他将与鲁国钱庄交易的外指，卫国钱庄的地址公钥和支付4BTC额度，自己的公钥地址和3.99BTC零钱额度作为参数输入；获得一个原始十六进制的加密交易字符串；
 
-> 输入：bitcoin-cli createrawtransaction '\[{"txid":"48aa4e2a01668e5ebab8988c3fae709e5a720c7bd3014ad1cb23187678cd92bb","vout":1}\]' '{"1D7twkUwiZxYPQanhi5PXpRYmMznhC3B46":4.00000000, ”14cYAhJRknBkXDtG2r3VEMS8b6UeozngrQ”:3.99000000}'
->
+> 输入：bitcoin-cli createrawtransaction '\[{"txid":"48aa4e2a01668e5ebab8988c3fae709e5a720c7bd3014ad1cb23187678cd92bb","vout":1}\]' '{"1D7twkUwiZxYPQanhi5PXpRYmMznhC3B46":4.00000000, "14cYAhJRknBkXDtG2r3VEMS8b6UeozngrQ":3.99000000}'
 > 输出：0100000001bb92cd78761823cbd14a01d37b0c725a9e70ae3f8c98b8ba5e8e66012a4eaa480100000000ffffffff01c0897b0d000000001976a91427a0f3fa9836fae94672b95f6abbcc03e43203ba88ac00000000
 
 （5）子贡使用decoderawtransaction命令，以（4）获得的字符串作为参数输入，查看    交易；
 
 > 输入：bitcoin-cli decoderawtransaction 0100000001bb92cd78761823cbd14a01d37b0c725a9e70ae3f8c98b8ba5e8e66012a4eaa480100000000ffffffff01c0897b0d000000001976a91427a0f3fa9836fae94672b95f6abbcc03e43203ba88ac00000000
->
 > 输出：\(略\)
 
 （6）子贡确认（5）中交易内容无误后，使用signrawtransaction命令进行签名，以（4）中获得的字符串作为参数输入，获得新一串十六进制的加密交易字符串；
 
 > 输入：bitcoin-cli signrawtransaction 0100000001bb92cd78761823cbd14a01d37b0c725a9e70ae3f8c98b8ba5e8e66012a4eaa480100000000ffffffff01c0897b0d000000001976a91427a0f3fa9836fae94672b95f6abbcc03e43203ba88ac00000000
->
 > 输出：0100000004d5f9ea32d69973218d64a72992afec398eff25004432bf32dc269c253d96038e010000006a47304402204…
 
 （7）子贡可以再次使用decoderawtransaction命令来确认交易内容，之后她使用sendrawtransaction命令，以（6）中获得的字符串作为参数输入，将交易发布到比特币网络，获得该交易的散列值。
 
 > 输入：bitcoin-cli sendrawtransaction 0100000004d5f9ea32d69973218d64a72992afec398eff25004432bf32dc269c253d96038e010000006a47304402204…
->
 > 输出：fdc2d201e9b8cbd2b7ffa0104323914725609dae30937f62f559a459cdc97676
 
 至此，子贡在交易中的操作完成。他或卫国钱庄，或者是任何人都可以使用getrawtransaction命令，以（7）中获得的散列值作为参数输入来获取加密的交易信息；再使用之前的decoderawtransaction命令获取解密后具体的交易信息。
 
 > 输入：bitcoin-cli getrawtransaction fdc2d201e9b8cbd2b7ffa0104323914725609dae30937f62f559a459cdc97676
->
 > 输出：0100000001e15a001dbcd129a5c3b79c6305636ef2be0ee314f0c629612d441815cd53f065000000006a4730440220028234f1f7edb646a77…
 
 值得注意的是，上面的过程并没有出现私钥，是因为signrawtransaction封装了私钥的操作：该例中的公钥地址是钱包生成的，所以钱包中有其对应的私钥。私钥代表了比特币的所有权，所以需要保护好私钥。私钥可以从钱包中导出，无加密的钱包直接执行dumpprivkey命令即可。有加密的钱包可以先执行walletpassphrase命令，并以设定好的密码和解锁秒数作为参数值；随后再执行dumpprivkey命令。加密钱包则使用encryptwallet命令，以自己设置的密码作为参数。比特币的钱包功能非常强大，还有查询区块信息，更改本地设置等等的命令。更详细的内容可以通过系统中的help命令查阅，附录3中收集了命令的条目。
 
 > 输入：bitcoin-cli dumpprivkey 14cYAhJRknBkXDtG2r3VEMS8b6UeozngrQ
->
 > 输出：（略）
 >
 > 输入：bitcoin-cli encryptwallet 123456
->
 > 输出：（系统提示）
 >
 > 输入：bitcoin-cli walletpassphrase 123456 60
->
 > 输出：无
 
 值得一提的另一点是交易中的手续费。细心的读者发现比特币在转移的过程中总值似乎越来越少。鲁国钱庄转了8TC给子贡，但在子贡和鲁国钱庄的交易中，输入总值为8BTC，输出的总值却变为4BTC+3.99BTC=7.99BTC。那么还有0.01BTC的比特币去哪里了呢？这部分输入与输出的差价作为手续费奖励给了记账的矿工，所以总量是不变的。关于手续费，有两个有趣的地方：
