@@ -114,11 +114,7 @@ _图 4-12：交易结构示意图_
 
 ![](/assets/fig-table-4-4.png)表 4-5：外指每部分大小和功能的具体介绍。
 
-![](/assets/fig-table-4-5.png)
-
-表4-6：普通交易输出每部分大小和功能的具体介绍。
-
-![](/assets/fig-table-4-6.png)表4-7：币基交易输入每部分大小和功能的具体介绍
+![](/assets/fig-table-4-5.png)表4-6：普通交易输出每部分大小和功能的具体介绍。![](/assets/fig-table-4-6.png)表4-7：币基交易输入每部分大小和功能的具体介绍
 
 ![](/assets/fig-table-4-7.png)
 
