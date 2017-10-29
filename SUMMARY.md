@@ -23,7 +23,7 @@
     * 3.4 时间戳（Timestamp）
     * [3.5 本章小节](gai-lun/di-san-zhang-fen-bu-shi-ji-suan-mo-xing/35ben-zhang-xiao-jie.md)
   * [第四章 比特币的区块链（一）](gai-lun/di-si-zhang-bi-te-bi-de-qu-kuai-lian-ff08-yi-ff09.md)
-    * [4.1 “双花”问题的攻克](gai-lun/41-201c-shuang-hua-201d-wen-ti-de-gong-ke.md)
-    * [4.2 账本](gai-lun/42-zhang-ben.md)
-    * [4.3 本章小结](gai-lun/43-ben-zhang-xiao-jie.md)
+    * [4.1 “双花”问题的攻克](gai-lun/di-si-zhang-bi-te-bi-de-qu-kuai-lian-ff08-yi-ff09/41-201c-shuang-hua-201d-wen-ti-de-gong-ke.md)
+    * [4.2 账本](gai-lun/di-si-zhang-bi-te-bi-de-qu-kuai-lian-ff08-yi-ff09/42-zhang-ben.md)
+    * [4.3 本章小结](gai-lun/di-si-zhang-bi-te-bi-de-qu-kuai-lian-ff08-yi-ff09/43-ben-zhang-xiao-jie.md)
 
