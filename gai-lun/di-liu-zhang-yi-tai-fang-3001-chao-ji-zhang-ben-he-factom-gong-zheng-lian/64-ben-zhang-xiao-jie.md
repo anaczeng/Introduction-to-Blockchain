@@ -18,19 +18,19 @@
 
 \[1\] 以太坊白皮书1.0. http://ethfans.org/wikis/%E4%BB%A5%E5%A4%AA%E5%9D%8A%E7%99%BD%E7%9A%AE%E4%B9%A6, 2016/11/21. 
 
-\[2\]以太坊白皮书2.0. http://wenku.baidu.com/view/5d096b380740be1e650e9a47.html, 2016/11/21. 
+\[2\] 以太坊白皮书2.0. http://wenku.baidu.com/view/5d096b380740be1e650e9a47.html, 2016/11/21. 
 
-\[3\]以太坊黄皮书. http://159.226.251.229/videoplayer/Paper.pdf?ich\_u\_r\_i=431b228ca5ce65c7e99295ce805914b7&ich\_s\_t\_a\_r\_t=0&ich\_e\_n\_d=0&ich\_k\_e\_y=1645118921751463102475&ich\_t\_y\_p\_e=1&ich\_d\_i\_s\_k\_i\_d=2&ich\_u\_n\_i\_t=1, 2016/11/21. 
+\[3\] 以太坊黄皮书. http://159.226.251.229/videoplayer/Paper.pdf?ich\_u\_r\_i=431b228ca5ce65c7e99295ce805914b7&ich\_s\_t\_a\_r\_t=0&ich\_e\_n\_d=0&ich\_k\_e\_y=1645118921751463102475&ich\_t\_y\_p\_e=1&ich\_d\_i\_s\_k\_i\_d=2&ich\_u\_n\_i\_t=1, 2016/11/21. 
 
-\[4\]以太坊紫皮书. http://wtoutiao.com/p/44brLg0.html， 2016/11/21. 
+\[4\] 以太坊紫皮书. http://wtoutiao.com/p/44brLg0.html， 2016/11/21. 
 
-\[5\]超级账本白皮书. http://qkldx.net/topic/195/%E8%B6%85%E7%BA%A7%E8%B4%A6%E6%9C%AC%E7%99%BD%E7%9A%AE%E4%B9%A6-1-0-1%E7%89%88, 2016/11/21. 
+\[5\] 超级账本白皮书. http://qkldx.net/topic/195/%E8%B6%85%E7%BA%A7%E8%B4%A6%E6%9C%AC%E7%99%BD%E7%9A%AE%E4%B9%A6-1-0-1%E7%89%88, 2016/11/21. 
 
-\[6\]Factom白皮书. http://www.8btc.com/factombaipishu, 2016/11/21. 
+\[6\] Factom白皮书. http://www.8btc.com/factombaipishu, 2016/11/21. 
 
-\[7\]Miguel Castro, Barbara Liskov. Practical Byzantine Fault Tolerance. http://pmg.csail.mit.edu/papers/osdi99.pdf, 2016/11/21. 
+\[7\] Miguel Castro, Barbara Liskov. Practical Byzantine Fault Tolerance. http://pmg.csail.mit.edu/papers/osdi99.pdf, 2016/11/21. 
 
-\[8\]Yonatan Sompolinsky, Aviv Zohar. Accelerating Bitcoin’s Transaction Processing Fast Money Grows on Trees, Not Chains. https://eprint.iacr.org/2013/881.pdf, 2016/11/21. 
+\[8\] Yonatan Sompolinsky, Aviv Zohar. Accelerating Bitcoin’s Transaction Processing Fast Money Grows on Trees, Not Chains. https://eprint.iacr.org/2013/881.pdf, 2016/11/21. 
 
 
 
