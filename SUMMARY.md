@@ -32,6 +32,7 @@
     * [5.3 脑洞：剥离比特币应用的区块链](gai-lun/di-wu-zhang-bi-te-bi-de-qu-kuai-lian-ff08-er-ff09/53-nao-dong-ff1a-bo-li-bi-te-bi-ying-yong-de-qu-kuai-lian.md)
     * [5.4 本章小节](gai-lun/di-wu-zhang-bi-te-bi-de-qu-kuai-lian-ff08-er-ff09/54-ben-zhang-xiao-jie.md)
   * [第六章 以太坊、超级账本和Factom公证链](gai-lun/di-liu-zhang-yi-tai-fang-3001-chao-ji-zhang-ben-he-factom-gong-zheng-lian.md)
+    * [6.1 以太坊（Ethereum）](gai-lun/di-liu-zhang-yi-tai-fang-3001-chao-ji-zhang-ben-he-factom-gong-zheng-lian/61-yi-tai-fang-ff08-ethereum.md)
   * [第七章 区块链衍生技术](gai-lun/di-qi-zhang-qu-kuai-lian-yan-sheng-ji-zhu.md)
     * [7.1 闪电网](gai-lun/di-qi-zhang-qu-kuai-lian-yan-sheng-ji-zhu/71-shan-dian-wang.md)
     * [7.2 侧链技术](gai-lun/di-qi-zhang-qu-kuai-lian-yan-sheng-ji-zhu/72-ce-lian-ji-zhu.md)
