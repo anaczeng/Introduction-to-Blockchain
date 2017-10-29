@@ -21,4 +21,5 @@
     * [3.2 POW\(Proof of Work:工作量证明\)](gai-lun/di-san-zhang-fen-bu-shi-ji-suan-mo-xing/32-powproof-of-workgong-zuo-liang-zheng-660e29.md)
     * [3.3 POS\(Proof of Stake:股权证明\)](gai-lun/di-san-zhang-fen-bu-shi-ji-suan-mo-xing/33-posproof-of-stakegu-quan-zheng-660e29.md)
     * 3.4 时间戳（Timestamp）
+    * [3.5 本章小节](gai-lun/di-san-zhang-fen-bu-shi-ji-suan-mo-xing/35ben-zhang-xiao-jie.md)
 
