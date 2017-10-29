@@ -150,10 +150,59 @@ _图 4-12：交易结构示意图_
     }
   ]—-输出 
 }
-
 ```
 
 普通交易数据：
+
+```
+{
+  "txid": "05d07bb2de2bda1115409f99bf6b626d23ecb6bed810d8be263352988e4548cb",
+  "size": 257,
+  "version": 1,
+  "locktime": 0,
+  "vin": [
+    {
+      "txid": "80c6f121c3e9fe0a59177e49874d8c703cbadee0700a782e4002e87d862373c6", -- 比特币来源输出的交易散列值
+      "vout": 1,
+      "scriptSig": {
+        "asm": "3044022042734b25f54845d662e6499b75ff8529ff47f42fd224498a9f752d212326dbfa0220523e4b7b570bbb1f3af02baa2c04ea8eb7b0fccb1522cced130b666ae9a9d014[ALL] 04b5a23b922949877e9eaf7512897ed091958e2e8cf05b0d0eb9064e7976043fde6023b4e2c188b7e38ef94eec6845dc4933f5e8635f1f6a3702290956aa9e284b",
+        "hex": "473044022042734b25f54845d662e6499b75ff8529ff47f42fd224498a9f752d212326dbfa0220523e4b7b570bbb1f3af02baa2c04ea8eb7b0fccb1522cced130b666ae9a9d014014104b5a23b922949877e9eaf7512897ed091958e2e8cf05b0d0eb9064e7976043fde6023b4e2c188b7e38ef94eec6845dc4933f5e8635f1f6a3702290956aa9e284b"
+      },
+      "sequence": 4294967295
+    }
+  ], -- 输入
+  "vout": [
+    {
+      "value": 138.26000000,
+      "n": 0,
+      "scriptPubKey": {
+        "asm": "OP_DUP OP_HASH160 36e5884215f7d3044be5d37bdd8c987d9d942c84 OP_EQUALVERIFY OP_CHECKSIG",
+        "hex": "76a91436e5884215f7d3044be5d37bdd8c987d9d942c8488ac",
+        "reqSigs": 1,
+        "type": "pubkeyhash",
+        "addresses": [
+          "161GTYJhuvdLQoTM4KRsqKovZdHLkapUu4"
+        ]
+      }
+    }, -- 输出1
+    {
+      "value": 0.05000000,
+      "n": 1,
+      "scriptPubKey": {
+        "asm": "OP_DUP OP_HASH160 60085d6838f8a44a21a0de56ff963cfa6242a961 OP_EQUALVERIFY OP_CHECKSIG",
+        "hex": "76a91460085d6838f8a44a21a0de56ff963cfa6242a96188ac",
+        "reqSigs": 1,
+        "type": "pubkeyhash",
+        "addresses": [
+          "19kmtcoDHC25WkXrBBLFAjsFGVKgM1SHtp"
+        ] 
+      }
+    } -- 输出 2
+  ]
+} 
+
+
+```
 
 比特币是一连串的数字签名，这是中本聪2008年在比特币白皮书中给出的定义。组成比特币的私钥签名和公钥地址的字符串被隐藏在散列值中，分别存储在输入的私钥签名脚本和输出的公钥地址脚本里。比特币也是区块链中交易流链的组成部分；交易流链的另一个组成部分是外指中的散列值TXID。
 
