@@ -28,4 +28,7 @@
     * [4.3 本章小结](gai-lun/di-si-zhang-bi-te-bi-de-qu-kuai-lian-ff08-yi-ff09/43-ben-zhang-xiao-jie.md)
   * [第五章 比特币的区块链（二）](gai-lun/di-wu-zhang-bi-te-bi-de-qu-kuai-lian-ff08-er-ff09.md)
     * [5.1 节点](gai-lun/di-wu-zhang-bi-te-bi-de-qu-kuai-lian-ff08-er-ff09/51-jie-dian.md)
+    * [5.2 网络](gai-lun/di-wu-zhang-bi-te-bi-de-qu-kuai-lian-ff08-er-ff09/52-wang-luo.md)
+    * [5.3 脑洞：剥离比特币应用的区块链](gai-lun/di-wu-zhang-bi-te-bi-de-qu-kuai-lian-ff08-er-ff09/53-nao-dong-ff1a-bo-li-bi-te-bi-ying-yong-de-qu-kuai-lian.md)
+    * [5.4 本章小节](gai-lun/di-wu-zhang-bi-te-bi-de-qu-kuai-lian-ff08-er-ff09/54-ben-zhang-xiao-jie.md)
 
