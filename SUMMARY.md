@@ -25,4 +25,5 @@
   * 第四章 比特币的区块链（一）
     * [4.1 “双花”问题的攻克](gai-lun/41-201c-shuang-hua-201d-wen-ti-de-gong-ke.md)
     * [4.2 账本](gai-lun/42-zhang-ben.md)
+    * [4.3 本章小结](gai-lun/43-ben-zhang-xiao-jie.md)
 
