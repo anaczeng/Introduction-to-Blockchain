@@ -62,7 +62,7 @@ _图 4-9：区块头结构示意图_
 
 > 难度值计算公式：
 >
-> 			difficulty = difficulty\_1\_target / current\_target
+> difficulty = difficulty\_1\_target / current\_target
 >
 > 下一个难度确定公式：
 >
