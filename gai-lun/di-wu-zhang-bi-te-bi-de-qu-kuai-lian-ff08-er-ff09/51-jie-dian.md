@@ -60,18 +60,19 @@
 
 （1）子贡先使用getnewaddress命令获取地址，然后发给鲁国钱庄用于接收8BTC；
 
-> 输入：bitcoin-cli getnewaddress
+> 输入：bitcoin-cli getnewaddress  
 > 输出：14cYAhJRknBkXDtG2r3VEMS8b6UeozngrQ
 
 （2）过一段时间后，鲁国钱庄告诉子贡已经转账了；子贡使用getreceivedbyaddress命令并设置该地址和6为参数来查看该地址经过6个区块确认的接收额度；
 
-> 输入：bitcoin-cli getreceivedbyaddress 14cYAhJRknBkXDtG2r3VEMS8b6UeozngrQ 6
+> 输入：bitcoin-cli getreceivedbyaddress 14cYAhJRknBkXDtG2r3VEMS8b6UeozngrQ 6  
 > 输出：8.00000000
 
 （3）子贡使用listunspent命令查看自己的未花交易UTXO；
 
-> 输入：bitcoin-cli listunspent
+> 输入：bitcoin-cli listunspent  
 > 输出：
+>
 > ```
 > [
 > {
@@ -192,11 +193,11 @@
 
 （2）一部分全节点运行并不完全，它们的8333端口被防火墙关了。这意味着这些节点最多只能连接8个其他节点，不能成为网络中的骨干节点。
 
-5.1.3 挖矿节点
+##### 5.1.3 挖矿节点
 
 诚实的挖矿节点除了要验证交易和区块的合法性外，它还需要计算出新的区块，也即是常说的记账或挖矿；挖矿节点被称为矿工。随着难度的飙升，矿工也完成了从最初普通电脑CPU到如今专用矿机的更新换代，组织形式也从最初的个人管理变为了如今的矿池管理。但无论是最开始的个人电脑CPU还是现在的矿池专业矿机，它们所做的挖矿工作并无区别，仅仅是在性能上后者能更快地进行哈希运算。本节将介绍比特币系统挖矿的具体流程，并从环境保护的角度出发对现在的挖矿行业进行反思。
 
-5.1.3.1挖矿流程
+##### 5.1.3.1 挖矿流程
 
 挖矿的本质是用哈希计算来证明算力（计算能力），Hashcash是其具体的实现方法。它在比特币系统中解决了两个问题：
 
@@ -264,43 +265,43 @@ POW和Hashcash的介绍可以回顾3.4节的内容。
 
 > 交易一（b14f8b28eb460d9d25a51addf90872f28fbd39385d839e8988130b8d0a620706）：
 >
-> 输入：略     
+> 输入：略
 >
 > 输出：
 >
 > 价值：3BTC
 >
 > 地址：1Gg8ZkeyzeZoifqbDceJrXiLsFWV86wEEk
-
-
-
+>
 > 交易二（a00208d56051fe501a6c454c202b7498cfa334e0ad535acd9cc7dd92a73a6453）：
 >
 > 输入：
 >
-> 	TXID：b14f8b28eb460d9d25a51addf90872f28fbd39385d839e8988130b8d0a620706
+> ```
+> TXID：b14f8b28eb460d9d25a51addf90872f28fbd39385d839e8988130b8d0a620706
 >
-> 	索引：0
+> 索引：0
 >
-> 	签名：L5E4aVE19Kyv5Cf9Akbh9zGJxoqqteHYLgZQ7D13VMqqkqNj4Q13
+> 签名：L5E4aVE19Kyv5Cf9Akbh9zGJxoqqteHYLgZQ7D13VMqqkqNj4Q13
+> ```
 >
 > 输出：
 >
 > 价值：3BTC
 >
 > 地址：12mbpvSoCfSd4HTxuFV6g3WUfs2nMcnEJK
-
-
-
+>
 > 交易三（022dcce262019cfc357b160743294357c80a8a4dafa22a453bdebf4b18f989eej）：
 >
 > 输入：
 >
-> 	TXID：b14f8b28eb460d9d25a51addf90872f28fbd39385d839e8988130b8d0a620706
+> ```
+> TXID：b14f8b28eb460d9d25a51addf90872f28fbd39385d839e8988130b8d0a620706
 >
-> 	索引：0
+> 索引：0
 >
-> 	签名：L5E4aVE19Kyv5Cf9Akbh9zGJxoqqteHYLgZQ7D13VMqqkqNj4Q13
+> 签名：L5E4aVE19Kyv5Cf9Akbh9zGJxoqqteHYLgZQ7D13VMqqkqNj4Q13
+> ```
 >
 > 输出：
 >
@@ -310,9 +311,9 @@ POW和Hashcash的介绍可以回顾3.4节的内容。
 
 通过之前的学习，我们知道：
 
-（1）	交易一已在账本上而且是有效的，所以盗跖已有3BTC比特币的所有权；
+（1）    交易一已在账本上而且是有效的，所以盗跖已有3BTC比特币的所有权；
 
-（2）	对单个无论是主节点还是矿工节点来说，它们只会接受交易二或交易三并拒绝另一个。
+（2）    对单个无论是主节点还是矿工节点来说，它们只会接受交易二或交易三并拒绝另一个。
 
 在大多数情况下，一个时刻只有一个区块产生，并在其后面接上后续的区块。那么无论被打包在区块中的是交易二还是交易三，盗跖的3BTC比特币也只能被花费一次，"双花"攻击是无效的。
 
@@ -354,17 +355,15 @@ POW和Hashcash的介绍可以回顾3.4节的内容。
 
 ![](/assets/fig-5-12.png)
 
-图5-12：2016年9月18日的全网算力图。图片来源http://bitcoin.sipa.be。
+图5-12：2016年9月18日的全网算力图。图片来源[http://bitcoin.sipa.be。](http://bitcoin.sipa.be。)
 
 ![](/assets/fig-5-13.png)
 
-图5-13：2016年9月18日矿机信息。图片来源http://mining.btcfans.com/?isappinstalled=0&from=singlemessage。
+图5-13：2016年9月18日矿机信息。图片来源[http://mining.btcfans.com/?isappinstalled=0&from=singlemessage。](http://mining.btcfans.com/?isappinstalled=0&from=singlemessage。)
 
 在4.1节已解释过一个理性的人在拥有51％或以上算力的情况下是没有发动51％攻击的动机的；但是若存在像盗跖这样固执的人，他最好先去一趟银行。
 
 ##### 脑洞：成功51％攻击的后续
 
 成功的51%攻击能改变比特币世界的时间线，它能重置诚实节点对过去历史的一致结论。以上述场景为例，对比特币世界的节点来说，盗跖与张记之间的交易不存在了，在那一时刻只发生了盗跖和李家的交易；但对上帝视角的用户来说，两笔交易都发生过，所以事后张记要找盗跖打官司索求赔偿，只要一查比特币的全账本，盗跖的"双花"行为便不可抵赖了。也即是比特币系统配合完善的法制，即使Mallory成功地完成了51％攻击，她依然无法成功完成真正能获得收入的"双花"攻击。
-
-
 
