@@ -10,3 +10,7 @@
 
 本书从想法到写成，致谢计算技术研究所国重实验室的王一帆，张星洲和李春典同学校稿审阅；致谢华为的林健先生，提出了大量的宝贵意见；致谢 ChinaLedger 技术委员会主管白硕老师，给予了指导。区块链是一门新兴正在快速成长的技术，也请读者不吝给本书提供意见和反馈，作者邮箱箱 zxu@ict.ac.cn，zengchen@ict.ac.cn。谢谢！
 
+License
+
+&lt;a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"&gt;&lt;img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /&gt;&lt;/a&gt;&lt;br /&gt;This work is licensed under a &lt;a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"&gt;Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License&lt;/a&gt;.
+
